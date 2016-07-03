@@ -49,12 +49,20 @@ You can do various things there, including browsing through all the code and fil
 A few moments later, you'll have your own copy, on GitHub, of everything in
 that repository, and from now on you'll do your work on your copy of it.
 
-Your copy is at ``https://github.com/<your github account>/afraid-to-commit/``.
+Your copy is at ``https://github.com/<your github account>/afraid-to-commit/``. 
+
+.. note::
+   About angular brackets
+
+    Angular brackets, such as those in the line above, are used as placeholders; 
+    they do not need to be included in the command line terminal. Just write in your 
+    GitHub account name. The same applies for any angular brackets used throughout
+    the tutorial. 
 
 You will typically do this for any Git project you want to contribute to. It's
 good for you because it means you don't have to sign up for access to a
 central repository to be permitted to work on it, and even better for the
-maintainers because they certainly don't want to be managing an small army of
+maintainers because they certainly don't want to be managing a small army of
 volunteers on top of all their other jobs.
 
 .. note::
@@ -62,7 +70,7 @@ volunteers on top of all their other jobs.
 
     You'll notice that there might be a few forks of
     https://github.com/evildmp/afraid-to-commit; if you have a look at
-    https://github.com/django/django you'll see thouands. There'll even be
+    https://github.com/django/django you'll see thousands. There'll even be
     forks of the forks. Every single one is complete and independent. So,
     which one is the real one - which one is *the* Django repository?
 
@@ -90,9 +98,8 @@ volunteers on top of all their other jobs.
 Create a new branch
 -------------------
 
-Rather than edit the *master* (default) branch of the repository, it's better
-to edit the file in a new branch, leaving the *master* branch clean and
-untouched:
+Don't edit the *master* (default) branch of the repository. It's much better to
+edit the file in a new branch, leaving the *master* branch clean and untouched:
 
 #.  select the **branch** menu
 #.  in *Find or create a branch...* enter ``add-my-name``
@@ -234,7 +241,7 @@ because the changes will be coming from *my version* to *yours*.
 #.  add a **Title** (e.g. "merging upstream master on Github) and hit **Send
     pull request**
 
-You're sending a pull request to to *yourself*, based on updates in my
+You're sending a pull request to *yourself*, based on updates in my
 repository. And in fact if you check in your **Pull Requests** on GitHub,
 you'll see one there waiting for you, and you too can review, accept, reject
 or comment on it.
